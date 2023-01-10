@@ -1,0 +1,6 @@
+// const numbers = [1, 2, 3, 4, 5];
+// const result = numbers.filter(number => number > 3);
+
+let fruit_list = ['사과','감','감','배','포도','포도','딸기','포도','감','수박','딸기']
+let podo_list = fruit_list.filter(value => value == '포도')
+console.log(podo_list)
